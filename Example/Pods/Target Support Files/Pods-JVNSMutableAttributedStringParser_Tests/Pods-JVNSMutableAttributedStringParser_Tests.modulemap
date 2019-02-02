@@ -1,0 +1,6 @@
+framework module Pods_JVNSMutableAttributedStringParser_Tests {
+  umbrella header "Pods-JVNSMutableAttributedStringParser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVNSMutableAttributedStringParser_Tests' do
+  pod 'JVNSMutableAttributedStringParser', :path => '../'
+  
+  
+end

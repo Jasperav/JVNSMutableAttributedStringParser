@@ -1,0 +1,6 @@
+framework module JVNSMutableAttributedStringParser {
+  umbrella header "JVNSMutableAttributedStringParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

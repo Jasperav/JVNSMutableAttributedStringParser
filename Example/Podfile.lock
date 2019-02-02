@@ -1,0 +1,16 @@
+PODS:
+  - JVNSMutableAttributedStringParser (0.1.0)
+
+DEPENDENCIES:
+  - JVNSMutableAttributedStringParser (from `../`)
+
+EXTERNAL SOURCES:
+  JVNSMutableAttributedStringParser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVNSMutableAttributedStringParser: 1aaf8f5f15dcae2ce28f3b814a66e5ff4d36aa65
+
+PODFILE CHECKSUM: 872ead7e36adb9cddf957b2484c9a5a6ef4b9224
+
+COCOAPODS: 1.6.0.beta.1
