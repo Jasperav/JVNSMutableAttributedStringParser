@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03CED93A790B613AA69643D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03CED93A790B613AA69643D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0A82BF1A9A2EBA3495BF3EDA /* Pods-JVNSMutableAttributedStringParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVNSMutableAttributedStringParser_Tests.release.xcconfig"; path = "Target Support Files/Pods-JVNSMutableAttributedStringParser_Tests/Pods-JVNSMutableAttributedStringParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2B30880D3919C5E545DCF630 /* Pods_JVNSMutableAttributedStringParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVNSMutableAttributedStringParser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* JVNSMutableAttributedStringParser_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVNSMutableAttributedStringParser_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		69A38C4B1B42D3DC10C9606F /* JVNSMutableAttributedStringParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JVNSMutableAttributedStringParser.podspec; path = ../JVNSMutableAttributedStringParser.podspec; sourceTree = "<group>"; };
+		69A38C4B1B42D3DC10C9606F /* JVNSMutableAttributedStringParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVNSMutableAttributedStringParser.podspec; path = ../JVNSMutableAttributedStringParser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5E6C977042C83EB48B2867A /* Pods-JVNSMutableAttributedStringParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVNSMutableAttributedStringParser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JVNSMutableAttributedStringParser_Tests/Pods-JVNSMutableAttributedStringParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D59819DA16C79C3FF77477E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D59819DA16C79C3FF77477E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				A5E6C977042C83EB48B2867A /* Pods-JVNSMutableAttributedStringParser_Tests.debug.xcconfig */,
 				0A82BF1A9A2EBA3495BF3EDA /* Pods-JVNSMutableAttributedStringParser_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

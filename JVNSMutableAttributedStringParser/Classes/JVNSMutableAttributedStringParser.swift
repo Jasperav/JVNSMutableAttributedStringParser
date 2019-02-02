@@ -1,4 +1,4 @@
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
     
     convenience init(text: String,
                      fontWithoutHTML: UIFont,
