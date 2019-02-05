@@ -7,6 +7,10 @@ public extension NSMutableAttributedString {
                      htmlClosingTag: String) {
         self.init()
         
+        assert(htmlOpeningTag != htmlClosingTag)
+        assert(htmlOpeningTag.count > 0 && htmlClosingTag.count > 0)
+        assert(text.count(occurences: htmlOpeningTag) == text.count(occurences: htmlClosingTag))
+        
         append(NSAttributedString(string: text, attributes: [NSAttributedString.Key.font : fontWithoutHTML]))
         
         var textCopy = text
@@ -34,5 +38,20 @@ public extension NSMutableAttributedString {
         for range in rangesToDelete.reversed() {
             deleteCharacters(in: range)
         }
+    }
+}
+
+public extension String {
+    /// stringToFind must be at least 1 character.
+    /// https://stackoverflow.com/a/45073012/7715250
+    func count(occurences: String) -> Int {
+        assert(!occurences.isEmpty)
+        var count = 0
+        var searchRange: Range<String.Index>?
+        while let foundRange = range(of: occurences, options: [], range: searchRange) {
+            count += 1
+            searchRange = Range(uncheckedBounds: (lower: foundRange.upperBound, upper: endIndex))
+        }
+        return count
     }
 }
